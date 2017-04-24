@@ -1,0 +1,5 @@
+<dependency>
+   <groupId>org.mybatis</groupId>
+   <artifactId>mybatis</artifactId>
+   <version>3.4.4</version>
+</dependency>

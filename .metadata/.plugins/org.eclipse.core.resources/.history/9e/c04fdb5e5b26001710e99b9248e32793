@@ -1,0 +1,22 @@
+package gbook;
+
+public class BookInfo {
+	private String name, email, home, contents;
+	public BookInfo(){
+
+	}
+
+	public void setName(String s){this.name=s;}
+	public String getName(){return name;}
+
+	public void setEmail(String s){this.email=s;}
+	public String getEmail(){return email;}
+
+	public void setHome(String s) { this.home = s; }
+	public String getHome() { return home; }
+
+	public void setContents(String s) { this.contents = s; }
+	public String getContents() { return contents; }
+
+
+}

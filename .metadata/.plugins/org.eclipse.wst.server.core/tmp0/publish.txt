@@ -1,0 +1,18 @@
+#Tomcat publish data
+#Fri Apr 21 16:44:19 KST 2017
+org.eclipse.jst.jee.server\:0004SelfPractice_FrontControl=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\0004SelfPractice_FrontControl
+org.eclipse.jst.jee.server\:0005SelfPractice_CommandControl=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\0005SelfPractice_CommandControl
+org.eclipse.jst.jee.server\:testtest=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\testtest
+org.eclipse.jst.jee.server\:0007SelfPractice_Movie=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\0007SelfPractice_Movie
+org.eclipse.jst.jee.server\:017filedownload=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\017filedownload
+org.eclipse.jst.jee.server\:cookie=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\cookie
+org.eclipse.jst.jee.server\:016JDBC=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\016JDBC
+org.eclipse.jst.jee.server\:0003SelfPractice_EL_JSTL=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\0003SelfPractice_EL_JSTL
+org.eclipse.jst.jee.server\:0001SelfPractice_ActionTag=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\0001SelfPractice_ActionTag
+org.eclipse.jst.jee.server\:0002SelfPractice_cookieSession=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\0002SelfPractice_cookieSession
+org.eclipse.jst.jee.server\:javaBeans=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\javaBeans
+org.eclipse.jst.jee.server\:movie_prj=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\movie_prj
+org.eclipse.jst.jee.server\:20170421=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\20170421
+org.eclipse.jst.jee.server\:019FrontControl=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\019FrontControl
+org.eclipse.jst.jee.server\:014actionTag=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\014actionTag
+org.eclipse.jst.jee.server\:0006SelfPractice_MVCBoard=C\:\\EclipseJSP\\common\\tomcat\\apache-tomcat-8.0.39\\wtpwebapps\\0006SelfPractice_MVCBoard

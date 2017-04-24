@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+             "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <environments default="development">
+      <environment id="development">
+        <transactionManager type="JDBC"/>
+          <dataSource type="POOLED">
+             <property name="driver" value="${driver}"/>
+             <!--${driver}는 사용할 DB Draiver이다. 예로 Oracle을 사용할 
+                  경우 value="oracle.jdbc.OracleDriver"라고 입력한다. -->
+             <property name="url" value="${url}"/>
+             <!-- ${url}는 사용하는 DB의 PORT Number이다. 예로 Oracle일 
+               경우 value="jdbc:oracle:thin:@localhost:1521:xe"라고 
+                입력한다. --> 
+             <property name="username" value="${username}"/>
+             <!--${username}은 DB ID이며 예로 Oracle을 사용할 경우 
+                value="scott"라고 입력한다. -->
+             <property name="password" value="${password}"/>
+             <!--${password}은 DB PW이며 예로 Oracle을 사용할 경우 
+                value="tiger"라고 입력한다. -->
+          </dataSource>
+        </environment>
+      </environments>
+<!--sql 구문이 들어있는 sql Mapper 파일을 다음과 같이 포함 -->
+<mapper>
+<select id="selectBlog" resultType="Blog">
+      select * from Blog where id = #{id}
+</select>
+
+  <insert id="add" parameterType="test.vp.MembersVo">
+     insert into members values(#{id},#{pwd},#{email},#{phone},sysdate)
+  </insert>
+  <delete id="remove" parameterType="java.lang.String">
+     delete from members where id=#{id}
+  </delete>
+
+</mapper>
+</configuration>
